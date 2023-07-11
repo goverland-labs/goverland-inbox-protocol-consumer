@@ -27,7 +27,7 @@ func NewFeedHandler(p FeedProcessor) APIHandler {
 }
 
 func (h *Feed) EnrichRoutes(baseRouter *mux.Router) {
-	baseRouter.HandleFunc("/feed", h.feedCallback).Methods(http.MethodPost).Name("feed_callback")
+	baseRouter.HandleFunc("/webhook", h.feedCallback).Methods(http.MethodPost).Name("feed_callback")
 }
 
 func (h *Feed) feedCallback(w http.ResponseWriter, r *http.Request) {

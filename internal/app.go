@@ -96,7 +96,7 @@ func (a *Application) initRestAPI() error {
 		apihandlers.NewFeedHandler(feedService),
 	}
 
-	a.manager.AddWorker(process.NewServerWorker("rest-API", rest.NewRestServer(a.cfg.REST, handlers)))
+	a.manager.AddWorker(process.NewServerWorker("webhook api", rest.NewRestServer(a.cfg.REST, handlers)))
 
 	return nil
 }

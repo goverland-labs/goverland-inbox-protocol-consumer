@@ -3,7 +3,7 @@ module github.com/goverland-labs/inbox-protocol-consumer
 go 1.20
 
 require (
-	github.com/caarlos0/env/v6 v6.10.1
+	github.com/caarlos0/env/v8 v8.0.0
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
 	github.com/goverland-labs/platform-events v0.0.9-0.20230621184304-daa9f498494f
