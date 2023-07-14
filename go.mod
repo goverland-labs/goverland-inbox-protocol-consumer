@@ -4,9 +4,10 @@ go 1.20
 
 require (
 	github.com/caarlos0/env/v8 v8.0.0
+	github.com/google/uuid v1.3.0
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
-	github.com/goverland-labs/platform-events v0.0.13
+	github.com/goverland-labs/platform-events v0.0.15
 	github.com/nats-io/nats.go v1.27.0
 	github.com/prometheus/client_golang v1.14.0
 	github.com/rs/zerolog v1.29.0

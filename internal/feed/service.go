@@ -102,6 +102,7 @@ func convertDaoToInbox(dao Dao) inbox.DaoPayload {
 		ProposalsCount: dao.ProposalsCount,
 		Guidelines:     dao.Guidelines,
 		Template:       dao.Template,
+		ActiveSince:    &dao.ActivitySince,
 		ParentID:       dao.ParentID,
 	}
 }

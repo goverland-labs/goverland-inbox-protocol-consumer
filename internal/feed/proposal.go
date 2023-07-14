@@ -1,11 +1,15 @@
 package feed
 
+import (
+	"github.com/google/uuid"
+)
+
 type Proposal struct {
 	ID            string     `json:"id"`
 	Ipfs          string     `json:"ipfs"`
 	Author        string     `json:"author"`
 	Created       int        `json:"created"`
-	DaoID         string     `json:"dao_id"`
+	DaoID         uuid.UUID  `json:"dao_id"`
 	Network       string     `json:"network"`
 	Symbol        string     `json:"symbol"`
 	Type          string     `json:"type"`

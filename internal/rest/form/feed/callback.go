@@ -4,23 +4,25 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/google/uuid"
+
 	"github.com/goverland-labs/inbox-protocol-consumer/internal/response"
 	"github.com/goverland-labs/inbox-protocol-consumer/internal/response/errs"
 	"github.com/goverland-labs/inbox-protocol-consumer/internal/rest/form"
 )
 
 type CallBackRequest struct {
-	DaoID        string `json:"dao_id"`
-	ProposalID   string `json:"proposal_id"`
-	DiscussionID string `json:"discussion_id"`
-	Type         string `json:"type"` // dao || proposal
-	Action       string `json:"action"`
+	DaoID        uuid.UUID `json:"dao_id"`
+	ProposalID   string    `json:"proposal_id"`
+	DiscussionID string    `json:"discussion_id"`
+	Type         string    `json:"type"` // dao || proposal
+	Action       string    `json:"action"`
 
 	Snapshot json.RawMessage `json:"snapshot"`
 }
 
 type CallbackForm struct {
-	DaoID        string
+	DaoID        uuid.UUID
 	ProposalID   string
 	DiscussionID string
 	Type         string

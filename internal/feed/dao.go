@@ -1,5 +1,9 @@
 package feed
 
+import (
+	"github.com/google/uuid"
+)
+
 type Voting struct {
 	Delay       int     `json:"delay"`
 	Period      int     `json:"period"`
@@ -12,7 +16,8 @@ type Voting struct {
 }
 
 type Dao struct {
-	ID             string     `json:"id"`
+	ID             uuid.UUID  `json:"id"`
+	Alias          string     `json:"alias"`
 	Name           string     `json:"name"`
 	Private        bool       `json:"private"`
 	About          string     `json:"about"`
@@ -39,5 +44,6 @@ type Dao struct {
 	ProposalsCount int        `json:"proposals_count"`
 	Guidelines     string     `json:"guidelines"`
 	Template       string     `json:"template"`
-	ParentID       string     `json:"parent_id"`
+	ActivitySince  int        `json:"activity_since"`
+	ParentID       *uuid.UUID `json:"parent_id,omitempty"`
 }
