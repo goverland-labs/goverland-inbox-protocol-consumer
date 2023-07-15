@@ -143,6 +143,10 @@ github.com/goverland-labs/platform-events v0.0.15 h1:p36Pam1SXgcdl2hUq78GVdP0PlV
 github.com/goverland-labs/platform-events v0.0.15/go.mod h1:eHUHlDt8di4lqOsECP6uCdTWnxZJ/gdAAXRgtqyE9As=
 github.com/goverland-labs/platform-events v0.0.20 h1:bzIOK9KSFBW8j8pDT8y7Sx3/cA93Kv5olcCzqNBePUc=
 github.com/goverland-labs/platform-events v0.0.20/go.mod h1:eHUHlDt8di4lqOsECP6uCdTWnxZJ/gdAAXRgtqyE9As=
+github.com/goverland-labs/platform-events v0.1.0 h1:trR/IOcQJRawUQxocLcr5DH4f4Zvl8C1oCJRUYSzkYE=
+github.com/goverland-labs/platform-events v0.1.0/go.mod h1:eHUHlDt8di4lqOsECP6uCdTWnxZJ/gdAAXRgtqyE9As=
+github.com/goverland-labs/platform-events v0.1.1 h1:FJoCTqNRhot7SnqLkuG+63yUfCKgTRy0YPXKOe8vdRE=
+github.com/goverland-labs/platform-events v0.1.1/go.mod h1:eHUHlDt8di4lqOsECP6uCdTWnxZJ/gdAAXRgtqyE9As=
 github.com/hashicorp/golang-lru v0.5.0/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hashicorp/golang-lru v0.5.1/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/ianlancetaylor/demangle v0.0.0-20181102032728-5e5cf60278f6/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
