@@ -9,6 +9,7 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 - Refactored the base logic - currently we send to queue messages as is with base validation
+- Pass ID from the webhook to the internal queue
 
 ## [0.0.5] - 2023-07-15
 

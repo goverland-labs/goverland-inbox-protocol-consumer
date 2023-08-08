@@ -38,6 +38,7 @@ func (f *CallbackForm) ParseAndValidate(r *http.Request) (form.Former, response.
 
 func (f *CallbackForm) ConvertToMap() map[string]interface{} {
 	return map[string]interface{}{
+		"id":            f.Request.ID,
 		"dao_id":        f.Request.DaoID,
 		"proposal_id":   f.Request.ProposalID,
 		"discussion_id": f.Request.DiscussionID,
