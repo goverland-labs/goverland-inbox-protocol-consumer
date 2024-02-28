@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/goverland-labs/platform-events/events/inbox"
+	"github.com/goverland-labs/goverland-platform-events/events/inbox"
 	"github.com/rs/zerolog/log"
 
 	"github.com/goverland-labs/inbox-protocol-consumer/internal/response"
