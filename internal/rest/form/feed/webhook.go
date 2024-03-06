@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/goverland-labs/platform-events/events/inbox"
+	"github.com/goverland-labs/goverland-platform-events/events/inbox"
 
 	"github.com/goverland-labs/inbox-protocol-consumer/internal/response"
 	"github.com/goverland-labs/inbox-protocol-consumer/internal/response/errs"

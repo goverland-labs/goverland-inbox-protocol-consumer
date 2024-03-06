@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/goverland-labs/platform-events/events/inbox"
+	"github.com/goverland-labs/goverland-platform-events/events/inbox"
 )
 
 type Publisher interface {
