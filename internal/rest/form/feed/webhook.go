@@ -6,9 +6,9 @@ import (
 
 	"github.com/goverland-labs/goverland-platform-events/events/inbox"
 
-	"github.com/goverland-labs/inbox-protocol-consumer/internal/response"
-	"github.com/goverland-labs/inbox-protocol-consumer/internal/response/errs"
-	"github.com/goverland-labs/inbox-protocol-consumer/internal/rest/form"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/response"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/response/errs"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/rest/form"
 )
 
 type WebhookRequest = inbox.FeedPayload

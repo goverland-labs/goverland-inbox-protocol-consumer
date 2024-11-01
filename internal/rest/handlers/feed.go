@@ -8,8 +8,8 @@ import (
 	"github.com/goverland-labs/goverland-platform-events/events/inbox"
 	"github.com/rs/zerolog/log"
 
-	"github.com/goverland-labs/inbox-protocol-consumer/internal/response"
-	forms "github.com/goverland-labs/inbox-protocol-consumer/internal/rest/form/feed"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/response"
+	forms "github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/rest/form/feed"
 )
 
 type FeedProcessor interface {

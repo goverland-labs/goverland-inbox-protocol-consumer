@@ -1,8 +1,6 @@
-module github.com/goverland-labs/inbox-protocol-consumer
+module github.com/goverland-labs/goverland-inbox-protocol-consumer
 
 go 1.21
-
-toolchain go1.22.0
 
 require (
 	github.com/caarlos0/env/v8 v8.0.0

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/goverland-labs/inbox-protocol-consumer/internal/response/errs"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/response/errs"
 )
 
 const (

@@ -3,7 +3,7 @@ package form
 import (
 	"net/http"
 
-	"github.com/goverland-labs/inbox-protocol-consumer/internal/response"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/response"
 )
 
 type Former interface {

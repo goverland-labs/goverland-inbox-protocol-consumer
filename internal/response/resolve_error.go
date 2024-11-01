@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/goverland-labs/inbox-protocol-consumer/internal/response/errs"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/response/errs"
 )
 
 type parametrizedError interface {

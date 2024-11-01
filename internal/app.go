@@ -9,12 +9,12 @@ import (
 	"github.com/nats-io/nats.go"
 	"github.com/s-larionov/process-manager"
 
-	"github.com/goverland-labs/inbox-protocol-consumer/internal/config"
-	"github.com/goverland-labs/inbox-protocol-consumer/internal/feed"
-	"github.com/goverland-labs/inbox-protocol-consumer/internal/rest"
-	apihandlers "github.com/goverland-labs/inbox-protocol-consumer/internal/rest/handlers"
-	"github.com/goverland-labs/inbox-protocol-consumer/pkg/health"
-	"github.com/goverland-labs/inbox-protocol-consumer/pkg/prometheus"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/config"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/feed"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/rest"
+	apihandlers "github.com/goverland-labs/goverland-inbox-protocol-consumer/internal/rest/handlers"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/pkg/health"
+	"github.com/goverland-labs/goverland-inbox-protocol-consumer/pkg/prometheus"
 )
 
 type Application struct {
